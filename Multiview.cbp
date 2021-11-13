@@ -140,16 +140,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="../basecode/camview.cpp" />
-		<Unit filename="../basecode/camview.h" />
-		<Unit filename="../basecode/kbhit.c">
+		<Unit filename="../kbhit/kbhit.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../basecode/kbhit.h" />
-		<Unit filename="../basecode/v4l2misc.c">
+		<Unit filename="../kbhit/kbhit.h" />
+		<Unit filename="../v4l2misc/camview.cpp" />
+		<Unit filename="../v4l2misc/camview.h" />
+		<Unit filename="../v4l2misc/v4l2misc.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../basecode/v4l2misc.h" />
+		<Unit filename="../v4l2misc/v4l2misc.h" />
 		<Unit filename="src/multiview.cpp" />
 		<Unit filename="src/multiview.h" />
 		<Unit filename="src/process000.cpp" />
