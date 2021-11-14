@@ -16,7 +16,8 @@
 					<Add option="-g" />
 					<Add directory="/usr/debug/include/opencv4" />
 					<Add directory="/usr/debug/include/opencv4/opencv2" />
-					<Add directory="/home/josemar/onedrive/projects/basecode" />
+					<Add directory="../v4l2misc" />
+					<Add directory="../kbhit" />
 				</Compiler>
 				<Linker>
 					<Add library="/usr/lib/x86_64-linux-gnu/libpthread.so" />
@@ -80,7 +81,8 @@
 					<Add option="-std=c++11" />
 					<Add directory="/usr/local/include/opencv4" />
 					<Add directory="/usr/local/include/opencv4/opencv2" />
-					<Add directory="/home/josemar/onedrive/projects/basecode" />
+					<Add directory="../v4l2misc" />
+					<Add directory="../kbhit" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
