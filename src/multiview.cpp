@@ -975,13 +975,12 @@ void cam_process_image(viod &vd) {
     gettimeofday(&vd.tm.t4, NULL);
 
         /// ***********************************************
-        if(vd.view){
-            if(is_there_gui){
-                if(vd.nv < (int)vd.v_mat.size()){
-                    imshow( "Images", vd.v_mat.at(vd.nv));
-                }
-                waitKey(1);
+        if(is_there_gui && vd.view){
+            if(vd.nv < (int)vd.v_mat.size()){
+                ///imshow( "Images", vd.v_mat.at(vd.nv));
+                imshow( vd.dvnm, vd.v_mat.at(vd.nv));
             }
+            waitKey(1);
         }
         /// ***********************************************
 
