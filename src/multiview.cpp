@@ -1190,8 +1190,6 @@ int main(int argc, char **argv){
 
     int sz_vet_func = sizeof(vet_of_funcs)/sizeof(TypeFuncWhPar*);
 
-
-
     CLEAR(ctl);
 
     set_echo(0);
@@ -1209,7 +1207,7 @@ int main(int argc, char **argv){
 
     if(is_there_gui){
 
-        ///fill_lookuptables();
+        ///fill_lookuptables();q
         namedWindow("Images",1);
 
     }

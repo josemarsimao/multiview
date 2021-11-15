@@ -31,7 +31,7 @@
 //   8 - cv::TrackerCSRT
 /// ---------------------------------------------------
 
-#define TRACKER_TYPE   3
+#define TRACKER_TYPE   2
 
 static Ptr<Tracker> CreateTracker(){
 #if(TRACKER_TYPE == 1)
