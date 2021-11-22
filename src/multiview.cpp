@@ -238,7 +238,6 @@ static void m420_to_rgb24(int width, int height, unsigned char *pIn0, unsigned c
 
 
 
-
     for (j = 0; j <= height - 2; j += 2) {
         for (i = 0; i <= width - 2; i += 2) {
             y00 = *pY;
@@ -977,8 +976,8 @@ void cam_process_image(viod &vd) {
         /// ***********************************************
         if(is_there_gui && vd.view){
             if(vd.nv < (int)vd.v_mat.size()){
-                ///imshow( "Images", vd.v_mat.at(vd.nv));
-                imshow( vd.dvnm, vd.v_mat.at(vd.nv));
+                imshow("Images", vd.v_mat.at(vd.nv));
+                ///imshow(vd.dvnm, vd.v_mat.at(vd.nv));
             }
             waitKey(1);
         }
@@ -1238,6 +1237,11 @@ int main(int argc, char **argv){
 
         }
 
+        if(v_viod.size() == 0 ){
+
+            continue;   /* so, it is not needed check if there is "fid" all the time */
+
+        }
 
         switch(ctl[0]){
             case 'o':
@@ -1472,7 +1476,7 @@ int main(int argc, char **argv){
                         printf("\n");
                         viod* vf = (*it);
                         close_v4l2_device((*vf).fid);
-                        printf("Finishing process %u - device: /dev/video%d - File id: %d\n", (unsigned int)(*vf).tid, (*vf).vid.num, (*vf).fid);
+                        printf("Finishing process 0x%08X - device: /dev/video%d - File id: %d\n", (unsigned int)(*vf).tid, (*vf).vid.num, (*vf).fid);
                         it++;
                     }
 
