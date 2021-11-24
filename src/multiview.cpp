@@ -1476,7 +1476,7 @@ int main(int argc, char **argv){
                         printf("\n");
                         viod* vf = (*it);
                         close_v4l2_device((*vf).fid);
-                        printf("Finishing process 0x%08X - device: /dev/video%d - File id: %d\n", (unsigned int)(*vf).tid, (*vf).vid.num, (*vf).fid);
+                        printf("Finishing process %#010X - device: /dev/video%d - File id: %d\n", (unsigned int)(*vf).tid, (*vf).vid.num, (*vf).fid);
                         it++;
                     }
 
