@@ -53,7 +53,7 @@ void process002(viod &vd){      // It detects faces from images
 
         /// Make just one time
 
-        samples::addSamplesDataSearchPath("/home/josemar/projects/linkopencv/data/haarcascades");
+        samples::addSamplesDataSearchPath("/usr/local/share/opencv4/haarcascades");
         //String face_cascade_name = samples::findFile("haarcascade_frontalface_alt.xml",1,1);
         //String eyes_cascade_name = samples::findFile("haarcascade_eye_tree_eyeglasses.xml",1,1);
 

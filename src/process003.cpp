@@ -51,8 +51,8 @@ void process003(viod &vd){      // It detects smiles
 
         //-- 1. Load the cascades
         //if( !smile_cascade.load( smile_cascade_name ) ){
-        //if( !smile_cascade.load( "~/projects/linkopencv/data/haarcascades/haarcascade_smile.xml" ) ){
-        if( !(*psmilecas).load( "/home/josemar/projects/linkopencv/data/haarcascades/haarcascade_smile.xml" ) ){
+
+        if( !(*psmilecas).load( "/usr/local/share/opencv4/haarcascades/haarcascade_smile.xml" ) ){
 
 
             cout << "--(!)Error loading face cascade\n";
