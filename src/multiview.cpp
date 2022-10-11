@@ -1237,11 +1237,11 @@ int main(int argc, char **argv){
 
         }
 
-        if(v_viod.size() == 0 ){
+//        if(v_viod.size() == 0 ){
 
-            continue;   /* so, it is not needed check if there is "fid" all the time */
+//            continue;   /* so, it is not needed check if there is "fid" all the time */
 
-        }
+//        }
 
         switch(ctl[0]){
             case 'o':
