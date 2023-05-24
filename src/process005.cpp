@@ -92,12 +92,21 @@ void process005(viod &vd){      // It tracks a rectagle choosed from first frame
     //r.height = ((Rect2d*)vd.d_vet.at(0).pobj)->height;
     //r.width = ((Rect2d*)vd.d_vet.at(0).pobj)->width;
 
+    // apply camshift to get the new location
+    RotatedRect rot_rect = CamShift(vd.v_mat.at(2), r, term_crit);
 
-    meanShift(vd.v_mat.at(2), r, term_crit);
+    // Draw it on image
+    Point2f points[4];
+    rot_rect.points(points);
+    for (int i = 0; i < 4; i++)
+        line(vd.v_mat.at(0), points[i], points[(i+1)%4], 255, 2);
+
+
+    //meanShift(vd.v_mat.at(2), r, term_crit);
 
     // Draw it on image
     //rectangle(vd.v_mat.at(0), *(Rect2d*)vd.d_vet.at(0).pobj, 255, 2);
-    rectangle(vd.v_mat.at(0), r, 255, 2);
+    //rectangle(vd.v_mat.at(0), r, 255, 2);
 
 
 
