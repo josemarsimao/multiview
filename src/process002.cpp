@@ -42,7 +42,7 @@ void process002(viod &vd){      // It detects faces from images
         //vd.c_mat.push_back(Mat(vd.h,vd.w));     /// matrix for calculation (0)
 
 
-        /// Create other types and register theirs
+        /// Create other types and register them
         pface_cascade = new(CascadeClassifier);
         vd.d_vet.push_back(CREATE_DANY(pface_cascade,CascadeClassifier));   /// pointer to type CascadeClassifier(0)
         peyes_cascade = new(CascadeClassifier);
@@ -51,7 +51,7 @@ void process002(viod &vd){      // It detects faces from images
 
 
 
-        /// Make just one time
+        /// Make it just one time
 
         samples::addSamplesDataSearchPath("/usr/local/share/opencv4/haarcascades");
         //String face_cascade_name = samples::findFile("haarcascade_frontalface_alt.xml",1,1);

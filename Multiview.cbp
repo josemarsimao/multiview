@@ -164,6 +164,8 @@
 		<Unit filename="src/process003.h" />
 		<Unit filename="src/process004.cpp" />
 		<Unit filename="src/process004.h" />
+		<Unit filename="src/process005.cpp" />
+		<Unit filename="src/process005.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

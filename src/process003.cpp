@@ -37,7 +37,7 @@ void process003(viod &vd){      // It detects smiles
         vd.v_mat.push_back(Mat(vd.h,vd.w,CV_8UC1));     /// gray image (1)
         //vd.v_mat.push_back(Mat(vd.h,vd.w,CV_8UC3));     /// output image (2)
 
-        /// Create other types and register theirs
+        /// Create other types and register them
         // Create CascadeClassifier
         psmilecas = new(CascadeClassifier);
         vd.d_vet.push_back(CREATE_DANY(psmilecas,CascadeClassifier));

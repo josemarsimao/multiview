@@ -778,7 +778,7 @@
 	<dirent.h>
 	<stdbool.h>
 
-1636834223 source:/media/josemar/DEV/PROJECTS/v4l2misc/v4l2misc.c
+1684880010 source:/media/josemar/DEV/PROJECTS/v4l2misc/v4l2misc.c
 	"v4l2misc.h"
 	"kbhit.h"
 	<ctype.h>
@@ -786,7 +786,7 @@
 	<cstdio>
 	<unistd.h>
 
-1636737655 /media/josemar/DEV/PROJECTS/v4l2misc/v4l2misc.h
+1684536935 /media/josemar/DEV/PROJECTS/v4l2misc/v4l2misc.h
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -802,7 +802,7 @@
 	<stdbool.h>
 	<linux/videodev2.h>
 
-1663712916 source:/media/josemar/DEV/PROJECTS/multiview/src/multiview.cpp
+1684891625 source:/media/josemar/DEV/PROJECTS/multiview/src/multiview.cpp
 	<mutex>
 	"camview.h"
 	"v4l2misc.h"
@@ -814,54 +814,55 @@
 	"process002.h"
 	"process003.h"
 	"process004.h"
+	"process005.h"
 
-1663712916 /media/josemar/DEV/PROJECTS/multiview/src/multiview.h
+1684536247 /media/josemar/DEV/PROJECTS/multiview/src/multiview.h
 	<opencv2/core/utility.hpp>
 	"opencv2/opencv.hpp"
 	"opencv2/imgproc/types_c.h"
 	<iostream>
 	<vector>
 
-1663712916 /media/josemar/DEV/PROJECTS/multiview/src/process000.h
+1684536247 /media/josemar/DEV/PROJECTS/multiview/src/process000.h
 	"camview.h"
 	"multiview.h"
 
-1663712916 /media/josemar/DEV/PROJECTS/multiview/src/process001.h
+1684536247 /media/josemar/DEV/PROJECTS/multiview/src/process001.h
 	"camview.h"
 	"multiview.h"
 
-1663712916 /media/josemar/DEV/PROJECTS/multiview/src/process002.h
+1684536247 /media/josemar/DEV/PROJECTS/multiview/src/process002.h
 	"camview.h"
 	"multiview.h"
 
-1663712916 /media/josemar/DEV/PROJECTS/multiview/src/process003.h
+1684536247 /media/josemar/DEV/PROJECTS/multiview/src/process003.h
 	"camview.h"
 	"multiview.h"
 
-1663712916 /media/josemar/DEV/PROJECTS/multiview/src/process004.h
+1684536247 /media/josemar/DEV/PROJECTS/multiview/src/process004.h
 	"camview.h"
 	"multiview.h"
 	<opencv2/tracking.hpp>
 
-1663712916 source:/media/josemar/DEV/PROJECTS/multiview/src/process000.cpp
+1684536247 source:/media/josemar/DEV/PROJECTS/multiview/src/process000.cpp
 	"process000.h"
 
-1663712916 source:/media/josemar/DEV/PROJECTS/multiview/src/process001.cpp
+1684536247 source:/media/josemar/DEV/PROJECTS/multiview/src/process001.cpp
 	"process001.h"
 
-1663712916 source:/media/josemar/DEV/PROJECTS/multiview/src/process002.cpp
+1684883216 source:/media/josemar/DEV/PROJECTS/multiview/src/process002.cpp
 	"process002.h"
 
-1663712916 source:/media/josemar/DEV/PROJECTS/multiview/src/process003.cpp
+1684883180 source:/media/josemar/DEV/PROJECTS/multiview/src/process003.cpp
 	"process003.h"
 
-1663712916 source:/media/josemar/DEV/PROJECTS/multiview/src/process004.cpp
+1684883216 source:/media/josemar/DEV/PROJECTS/multiview/src/process004.cpp
 	"process004.h"
 
-1637512145 source:/media/josemar/DEV/PROJECTS/v4l2misc/camview.cpp
+1684536935 source:/media/josemar/DEV/PROJECTS/v4l2misc/camview.cpp
 	"camview.h"
 
-1636936858 /media/josemar/DEV/PROJECTS/v4l2misc/camview.h
+1684536935 /media/josemar/DEV/PROJECTS/v4l2misc/camview.h
 	<vector>
 	"v4l2misc.h"
 	"opencv2/opencv.hpp"
@@ -1635,4 +1636,11 @@
 
 1659228402 source:/home/josemar/projects/Multiview/src/process004.cpp
 	"process004.h"
+
+1684891990 source:/media/josemar/DEV/PROJECTS/multiview/src/process005.cpp
+	"process005.h"
+
+1684884531 /media/josemar/DEV/PROJECTS/multiview/src/process005.h
+	"camview.h"
+	"multiview.h"
 

@@ -45,6 +45,7 @@
 #include "process002.h"
 #include "process003.h"
 #include "process004.h"
+#include "process005.h"
 
 int is_there_gui;
 int run_from_cl;
@@ -68,7 +69,7 @@ void process_image(const void *p, int isize){}
 
 
 
-TypeFuncWhPar *vet_of_funcs[] = {&process000, &process001, &process002, &process003, &process004, 0};
+TypeFuncWhPar *vet_of_funcs[] = {&process000, &process001, &process002, &process003, &process004, &process005, 0};
 
 
 
@@ -599,6 +600,8 @@ static int sonix_decompress(int width, int height, unsigned char *inp, unsigned 
 
 void convertToRgb(viod &vd, Mat &frame){
 ///void convertToRgb(const Buffer &currentBuffer){
+
+// Utiliza as informações do buffer atual para criar uma imagem de exibição no formato RGB
 
     /// Verificar uma forma melhor depois
     vbuff currentBuffer;

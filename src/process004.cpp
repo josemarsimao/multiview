@@ -73,7 +73,7 @@ void process004(viod &vd){      // It detects smiles
         //vd.c_mat.push_back(Mat(vd.h,vd.w));     /// matrix for calculation (0)
 
 
-        /// Create other types and register theirs
+        /// Create other types and register them
         // Create Rect
         Rect2d* pbox = new(Rect2d);
         vd.d_vet.push_back(CREATE_DANY(pbox,Rect2d));                       /// pointer to type Rect2b(0)
